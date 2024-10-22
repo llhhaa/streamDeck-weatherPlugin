@@ -48,3 +48,12 @@ In the Release folder, you can find the file `com.jk.weather.streamDeckPlugin`. 
 The `Sources` folder contains the source code of the plugin.
 
 Application main icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/)
+
+# Development
+To package the the plugin locally, first install the StreamDeck SDK per the instructions here: https://docs.elgato.com/streamdeck/sdk/introduction/getting-started
+
+Once installed, run the following in the terminal:
+```
+cd Release
+streamdeck pack ../Sources/com.jk.weather.sdPlugin -f
+```
